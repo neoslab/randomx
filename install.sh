@@ -23,7 +23,6 @@ mkdir xmrig/build && cd xmrig/scripts
 ./build_deps.sh && cd ../build
 cmake .. -DXMRIG_DEPS=scripts/deps
 make -j$(nproc)
-ldd xmrig
 sudo mkdir /opt/randomx
 sudo mv xmrig /opt/randomx/randomx
 sudo chown -R ubuntu:ubuntu /opt/randomx/
