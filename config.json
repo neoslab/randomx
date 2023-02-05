@@ -17,7 +17,7 @@
   "randomx": {
       "init": -1,
       "init-avx2": -1,
-      "mode": "false",
+      "mode": "fast",
       "1gb-pages": true,
       "rdmsr": true,
       "wrmsr": true,
